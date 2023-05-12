@@ -20,7 +20,7 @@ Product.init(
       allowNull: false,
     },
     price: {
-      type: DataTypes.DECIMAL,
+      type: DataTypes.DOUBLE,
       allowNull: false,
       defaultValue: 10,
       validate: {
